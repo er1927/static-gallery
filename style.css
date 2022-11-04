@@ -1,0 +1,80 @@
+body {
+    background-color: #ffff;
+    margin: 0;
+    width:1200px;
+    border:20px solid white;
+    font-family:"poiret one";
+    
+}
+
+.fixed {
+    width: 400px;
+    height: 620px;
+    background-color: #7f7f7f;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float:left;
+    
+}
+
+.gallery {
+    width:800px;
+    height:620px;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 0;
+    padding-left:10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.gallery::-webkit-scrollbar {
+display: none;
+}
+.gallery img {
+    width:360px;
+    height: 240px;
+    padding: 0 10px 15px 10px;
+    
+    
+}
+
+
+h1 {
+    font-size: 38px;
+    
+    
+}
+
+h1, p, footer {
+    text-transform: lowercase;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+footer {
+    font-size:12px;
+    font-weight: lighter;
+    font-family: "Source code pro";
+    word-spacing: 5px;
+    padding-top: 20px;
+}
+
+.profile {
+    width:100px;
+    height:auto;
+    border-radius: 50%;
+    border: 3px solid white; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
